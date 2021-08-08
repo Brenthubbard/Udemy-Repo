@@ -165,6 +165,91 @@
 // console.log('lifting weights 10');
 
 //for loop keeps running until the condition is met
+// for (let rep = 1; rep <= 10; rep++){
+//   console.log(`lifting weights repetitions ${rep}`);
+// }
+
+// const jonas = [
+//   'Brent',
+//   'Hubbard',
+//   2021 - 1973,
+//   'Software engineer',
+//   ['Russ', 'Josh', 'Erin'],
+//   true
+// ];
+// const types = [];
+// console.log(jonas[0])
+// console.log(jonas[1])
+// ...
+// console.log(jonas[4])
+// jonas[5] does not excist
+
+// for (let i = 0; i < jonas.length; i++){
+
+  //reading from the jonas array
+
+  // console.log(jonas[i], typeof jonas[i]);
+
+//filling the types array
+  // types[i] = typeof jonas[i];
+
+
+//   types.push(typeof jonas[i]);
+// }
+// console.log(types);
+
+// const years = [1919, 2007, 1973, 1987];
+// const ages = [];
+
+// for (let i = 0; i < years.length; i++){
+//   ages.push(2021 - years[i]);
+// }
+// console.log(ages)
+
+//continue and break loops
+// console.log('---ONLY STRINGS-----')
+
+// for (let i = 0; i < jonas.length; i++){
+//   if (typeof jonas[i] !== 'string') continue;
+
+
+//   console.log(jonas[i], typeof jonas[i]);
+// }
+
+// console.log('---Break with NUMBER-----')
+
+// for (let i = 0; i < jonas.length; i++){
+//   if (typeof jonas[i] === 'number') break;
+
+
+//   console.log(jonas[i], typeof jonas[i]);
+// }
+// const jonas = [
+//   'Brent',
+//   'Hubbard',
+//   2021 - 1973,
+//   'Software engineer',
+//   ['Russ', 'Josh', 'Erin'],
+//   true
+// ];
+
+// //0,1,......4
+// //4,3.......0
+
+// for (let i = jonas.length - 1; i >= 0; i--){
+//   console.log(i, jonas[i])
+// };
+
+// //loop inside a loop
+
+// for (let exercise = 1; exercise < 4; exercise++){
+//   console.log(`-------------Starting exercise ${exercise}`)
+
+//   for (let rep = 1; rep <= 6; rep++){
+//     console.log(`Exercise ${exercise} Lifting weight repetition ${rep} `);
+//   }
+// }
+
 for (let rep = 1; rep <= 10; rep++){
   console.log(`lifting weights repetitions ${rep}`);
 }
